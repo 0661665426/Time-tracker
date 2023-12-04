@@ -1,0 +1,465 @@
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main{
+    width: 1000px;
+    height: 600px;
+    background-color: #0d1323;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.btn{
+    display: inline;
+}
+.box1{
+    background-color: #1d204b; 
+    width: 200px;
+    height: 420px;
+    position: relative;
+    left: 10px;
+    border-radius: 25px;
+
+    
+}
+.box2{
+    background-color: #5746ea;
+    width: 200px;
+    height: 270px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+
+.profile{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 50px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.profile>.pic{
+    width: 55px;
+    height: 54px;
+    margin-top: 3px;
+    margin-left: 2px;
+
+}
+
+.text{
+    color: rgb(194, 194, 194);
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.jeremy{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.daily{
+    color:#7479b1;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    border-color:transparent ;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.weekly{
+    color: rgb(239, 241, 239);
+    position: relative;
+    top: 80px;
+    margin-left: -55px;
+    background-color: transparent;
+    border-color:transparent ;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.monthly{
+    color:#7479b1;
+    position: relative;
+    top: 110px;
+    margin-left: -70px;
+    background-color: transparent;
+    border-color:transparent ;
+    font-size: 16px;
+    font-family: 'Rubik, sans-serif';
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    
+}
+
+    .column1{
+        background-color: #ff8b64;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        overflow: hidden;
+      position: relative;
+   
+     
+    }
+    .column1>.work{
+        width: 70px;
+        height: 50px;
+        margin-left: 120px;
+        margin-top: -5px; 
+    }
+    
+    .column1>.innerA{
+    background-color: #1d204b;
+    width: 200px;
+    height: 198px;
+    border-radius: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+    bottom: 58px;
+    }
+    .nav{
+        margin-left: 160px;
+        margin-top: 30px;
+    }
+
+    .column2{
+        background-color:#56c2e6 ;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        overflow: hidden;
+       position: relative;
+    
+    }
+    .column2>.play{
+        width: 70px;
+        height: 50px;
+        margin-left: 120px;
+        margin-top: -1px;
+        
+    }
+
+    .column2>.innerB{
+    background-color: #1d204b;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 60px;
+    }
+
+
+    .column3{
+        background-color: #ff5e7d;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        overflow: hidden;   
+        position: relative;
+      
+    }
+    .column3>.study{
+        width: 70px;
+        height: 50px;
+        margin-left: 120px;
+        margin-top: -1px;
+        
+    }
+
+    .column3>.innerC{
+    background-color: #1d204b;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+    bottom: 60px;
+}
+
+.column4{
+    background-color: #4bcf83;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  
+
+}
+.column4>.exercise{
+    width: 70px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: -1px;
+    
+}
+
+.column4>.innerD{
+background-color: #1d204b;
+width: 200px;
+height: 200px;
+border-radius: 20px;
+margin-top: 40px;
+overflow: hidden;
+position: relative;
+bottom: 60px;
+}
+
+
+.column5{
+    background-color: #7235d1;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+   
+   
+}
+.column5>.social{
+    width: 70px;
+    height: 70px;
+    margin-left: 120px;
+    margin-top: -10px;
+    
+}
+
+.column5>.innerE{
+background-color: #1d204b;
+width: 200px;
+height: 200px;
+border-radius: 20px;
+margin-top: 40px;
+overflow: hidden;
+position: relative;
+bottom: 70px;
+
+}
+
+.column6{
+    background-color: #f1c75b;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.column6>.selfcare{
+    width: 50px;
+    height: 45px;
+    margin-left: 135px;
+    margin-top: -1px;
+    
+}
+
+.column6>.innerF{
+background-color: #1d204b;
+width: 200px;
+height: 200px;
+border-radius: 20px;
+margin-top: 40px;
+overflow: hidden;
+position: relative;
+bottom: 50px;
+}
+
+.Work{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+.work{
+    color:white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.works{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Play{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.play{
+    color: white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+.plays{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Study{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.study{
+    color: white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.studied{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Exercise{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.exercise{
+    color: white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.exercises{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Social{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.social{
+    color: white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.socials{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Self{
+    color: white;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.self{
+    color: white;
+    font-size: 40px;
+    margin-left:30px ;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.self{
+    color:#bec1f4;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 355px) {
+    .Main{
+            width: 200vw;
+            height: auto;
+            background-color: #0d1323;
+            position: relative;
+            right: 80px;
+            flex-direction: column;
+            
+    }
+    .grid-container{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 250px;
+    margin-top: -20px;
+    gap: 20px; 
+    padding: 10px;
+    position: relative;
+    left: -50px;
+
+}body{
+    flex-direction: column;
+    
+}
+
+.box1{
+    background-color: #1d204b; 
+    width: 200px;
+    height: 400px;
+    margin-left: 120px;
+    border-radius: 25px;
+    position: relative;
+    top: -30px;
+}
+.box2{
+    background-color: #5746ea;
+    width: 200px;
+    height: 270px;
+    border-radius: 25px;
+}
+}
+
+
+
